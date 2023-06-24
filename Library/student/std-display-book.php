@@ -340,8 +340,7 @@ if (!isset($_SESSION["user_id"])) {
                     <th>Published Date</th>
                     <!-- <th>Quantiy Of Books</th> -->
                     <th>Genre</th>
-                    <th>Availablity <br>
-                        1 = Available &nbsp;&nbsp; 0 = Not Available
+                    <th>Availablity
                     </th>
 
                 </tr>
@@ -363,7 +362,10 @@ if (!isset($_SESSION["user_id"])) {
                     $AuthorName = $row['Author_Name'];
                     $PublishedDate = $row['Published_Date'];
                     $Genre = $row['Genre'];
-                    $Available = $row['isAvailable'];
+                    if ($row['isAvailable'] == 1) {
+                        $Available = "Yes";
+                    } else
+                        $Available = "No";
 
 
                     // echo $emp_id;
