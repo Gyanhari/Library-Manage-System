@@ -4,7 +4,7 @@
 
 ## Steps To Run
 1. Install Xampp/Wampp/Lampp etc.
-2. Start the Apache server and My SQL.
+2. Start the Apache(localhost) server and My SQL.
 3. Open https://localhost/phpmyadmin.
 4. Create a database with the name `registration`.
 5. Import the sql code in the database.
