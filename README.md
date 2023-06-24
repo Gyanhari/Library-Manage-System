@@ -6,7 +6,7 @@
 1. Install Xampp/Wampp/Lampp etc.
 2. Start the Apache server and My SQL.
 3. Open https://localhost/phpmyadmin.
-4. The Database name is `registration`.
+4. Create a database with the name `registration`.
 5. Import the sql code in the database.
 6. Copy the folder `Library` to `htdoc` folder in (C:\xampp\htdocs) Here,C: is the drive containg the OS in windows.
 7. To Access the website, open https://localhost/Library
