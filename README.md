@@ -12,6 +12,7 @@
 7. To Access the website, open https://localhost/Library
 8. Students can create account,login,check all the books in database and reserve them.  
 9. Admin can login,add books,edit books,delete books and remove from reserved list
+10. Email and Password both are `admin`
 
 
 ## Limitation: You can only add one book of the same name,There is no user friendly form validation and no responsiveness 
