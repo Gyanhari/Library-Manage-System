@@ -16,3 +16,7 @@
 
 
 ## Limitation: You can only add one book of the same name,There is no user friendly form validation and no responsiveness 
+
+
+
+# If it says file is not in the server or incorrect path,change `library/index.php` to `Library/index.php`. 
