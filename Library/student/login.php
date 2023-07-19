@@ -108,7 +108,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <header>
         <div class="logo">LOGO</div>
         <nav class="navbar">
-            <a href="/Library/index.php">Home</a>
+            <a href="/Library/index.html">Home</a>
             <!-- <a href="#">Contact</a> -->
             <a href="std-reg.php">Register</a>
         </nav>

@@ -73,7 +73,7 @@ if (isset($_SESSION['user_id']) === true) {
         <!-- <div class="logo"><img class="image-123" src="css/library-logo.jpg" alt=""></div> -->
         <div class="logo">LOGO</div>
         <nav class="navbar">
-            <a href="/library/index.php">Home</a>
+            <a href="/library/index.html">Home</a>
             <!-- <a href="#">Contact</a> -->
             <a href="login.php">Login</a>
         </nav>
